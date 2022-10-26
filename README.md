@@ -9,9 +9,9 @@
 ></ul>
 
 ## [Uso](#uso)
-    👨‍💻 Esta ferramenta foi criada para puder ser feita uma futura e breve implementação com o Google API para se fazer o update dos calendários apartir de uma simples mensagem no discord. 
-    📔 Nota a implementação de *Discord* ainda não vai ser diretamente implmentada devido a questões de segurança 😅 pois as credenciais dos utilizadores não podem dar as suas credenciais por um char de servidor.
-    Espero que gostes da ferramenta e fica á vontade para fazer as tuas alterações 😄
+👨‍💻 Esta ferramenta foi criada para puder ser feita uma futura e breve implementação com o Google API para se fazer o update dos calendários apartir de uma simples mensagem no discord. 
+📔 Nota a implementação de *Discord* ainda não vai ser diretamente implmentada devido a questões de segurança 😅 pois as credenciais dos utilizadores não podem dar as suas credenciais por um char de servidor.
+Espero que gostes da ferramenta e fica á vontade para fazer as tuas alterações 😄
 
 ## [Importação](#importação)
 A importação desta ferramenta é simples, basta clonares este repositório e usares no teu projeto como quiseres. Esta ferramenta foi criada só para testes, se tiveres algo que descobrieste em relação a cibersegurança contacta os responsaveis sobre o problema.
