@@ -1,5 +1,9 @@
 import requests
+import re
+import datetime
 # Class de login que ao ser chamada devolve um valor de cookies depois utilizado ao receber testes
+def gettime():
+        return datetime.date(datetime.datetime.now().year, datetime.datetime.now().month, datetime.datetime.now().day)
 class Login:
         def __init__(self, utilizador, password):
                 self.utilizador = utilizador
@@ -55,6 +59,7 @@ class Testes(Login):
                 if not self.lista:
                         self.update()
                 return self.lista
+        # devolve os testes associados a um nome.
         def teste(self, nome_do_teste):
                 if not self.lista:
                         self.update()
@@ -65,6 +70,25 @@ class Testes(Login):
                         "Fim": test.get('horafim')
                         } for test in self.lista if nome_do_teste in test.get('descricao')]
                 return testes_de_x
+        def verificar_teste(self, data):
+                if not self.lista:
+                        self.update()
+
+                data = "-".join((data.split('-')[2], data.split('-')[1], data.split('-')[0]))
+                for teste in self.lista:
+                        if teste.get('antigo') == 'False' and data == teste.get('data'):
+                                return teste
+        # faz uma pesquisa pela lista toda e devolve os próximos testes
+        def testes_futuros(self):
+                if not self.lista:
+                        self.update()
+                return [{
+                        "summary":t.get('descricao'),
+                        "date": "{}".format(datetime.date(int(t.get('data').split('-')[2]), int(t.get('data').split('-')[1]), int(t.get('data').split('-')[0]))),
+                        "datetime": "{}T{}-{}".format(datetime.date(int(t.get('data').split('-')[2]), int(t.get('data').split('-')[1]), int(t.get('data').split('-')[0])), t.get('horainicio'), t.get('horafim')),
+                        "start": "{}T{}".format(datetime.date(int(t.get('data').split('-')[2]), int(t.get('data').split('-')[1]), int(t.get('data').split('-')[0])), t.get('horainicio')),
+                        "end": "{}T{}".format(datetime.date(int(t.get('data').split('-')[2]), int(t.get('data').split('-')[1]), int(t.get('data').split('-')[0])), t.get('horafim'))
+                }for t in self.lista if t.get('antigo') != 'True']
 
 # Error handling
 class accessError(Exception):

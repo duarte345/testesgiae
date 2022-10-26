@@ -34,7 +34,7 @@ objeto = Testes('a1234', 'qwerty')
 ```
 5. E apartir daqui podes utilizar todas as caracteristicas.
 ### Nota
-    O nome do utilizador e password não são apresentados. Sendo aconselhado utilizá-las como variáveis de ambiente, mas não hardcoded. Estas credenciais não são usadas para mais nada sem ser o login para obter os cookies para aceder ao painel dos testes.
+O nome do utilizador e password não são apresentados. Sendo aconselhado utilizá-las como variáveis de ambiente, mas não hardcoded. Estas credenciais não são usadas para mais nada sem ser o login para obter os cookies para aceder ao painel dos testes.
 
 ## [Ficheiros](#ficheiros)
 - calendario.py
