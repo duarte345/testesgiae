@@ -1,10 +1,13 @@
 # Testes no Giae
+## IMPORTANTE!! Antes de executar o programa giae.c run rode primeiro giae.c config para criar as configurações
 ># [Indice](#indice)
 ><ul>
 >    <li><a href="#indice">Indice</a></li>
 >    <li><a href="#uso">Uso</a></li>
 >    <li><a href="#importação">Importação</a></li>
 >    <li><a href="#como-usar">Como usar</a></li>
+>    <li><a href="#utilizador">Utilizador</a></li>
+>    <li><a href="#desenvolvedor">Desenvolvedor</a></li>
 >    <li><a href="#ficheiros">Ficheiros</a></li>
 ></ul>
 
@@ -15,7 +18,11 @@ Espero que gostes da ferramenta e fica á vontade para fazer as tuas alteraçõe
 
 ## [Importação](#importação)
 A importação desta ferramenta é simples, basta clonares este repositório e usares no teu projeto como quiseres. Esta ferramenta foi criada só para testes, se tiveres algo que descobrieste em relação a cibersegurança contacta os responsaveis sobre o problema.
-## [Como usar](#como-usar)
+
+## [Utilizador](#utilizador)
+1. Clonar o repositório
+2. executar o programa testes_giae.c
+## [Desenvolvedor](#desenvolvedor)
 1. clonar o repositório.
 ```bash
 git clone https://github.com/bener07/testesgiae.git
@@ -38,8 +45,10 @@ O nome do utilizador e password não são apresentados. Sendo aconselhado utiliz
 
 ## [Ficheiros](#ficheiros)
 - calendario.py
-    Contém o código utilizado para a API do google calendar.
+    - Contém o código utilizado para a API do google calendar.
 - giae.py
-    Contém o código utilizado para conectar ao giae e contém as classes Testes e Login.
+    - Contém o código utilizado para conectar ao giae e contém as classes Testes e Login.
 - discord.py
-    Contém o Bot de discord.
+    - Contém o Bot de discord.
+- testes_giae.c
+    - Este programa em C não compilado é usado para faciliar a eperiência de utilizador com configurações e adiante 

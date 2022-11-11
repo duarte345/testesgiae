@@ -18,7 +18,7 @@ def main():
                 'summary': teste.get('summary'),
                 'description': teste.get('summary'),
                 'start': {
-                    'dateTime': teste.get('end'),
+                    'dateTime': teste.get('start'),
                     'timeZone': 'Europe/Lisbon',
                 },
                 'end': {
