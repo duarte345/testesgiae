@@ -1,5 +1,5 @@
 # Testes no Giae
-## IMPORTANTE!! Antes de executar o programa giae.c run rode primeiro giae.c config para criar as configurações
+## IMPORTANTE!! Antes de executar o programa `giae.c run` rode `giae.c config` para criar as configurações
 ># [Indice](#indice)
 ><ul>
 >    <li><a href="#indice">Indice</a></li>
@@ -12,16 +12,16 @@
 ></ul>
 
 ## [Uso](#uso)
-👨‍💻 Esta ferramenta foi criada para puder ser feita uma futura e breve implementação com o Google API para se fazer o update dos calendários apartir de uma simples mensagem no discord. 
-📔 Nota a implementação de *Discord* ainda não vai ser diretamente implmentada devido a questões de segurança 😅 pois as credenciais dos utilizadores não podem dar as suas credenciais por um char de servidor.
+👨‍💻 Esta ferramenta foi criada no âmbito de sincronizar o calendário da google com os testes do giae, de maneira a que os alunos interessados possam ter acesso aos testes sem ter de ir ao giae.
 Espero que gostes da ferramenta e fica á vontade para fazer as tuas alterações 😄
 
 ## [Importação](#importação)
-A importação desta ferramenta é simples, basta clonares este repositório e usares no teu projeto como quiseres. Esta ferramenta foi criada só para testes, se tiveres algo que descobrieste em relação a cibersegurança contacta os responsaveis sobre o problema.
+A importação desta ferramenta é simples, basta clonares este repositório e usares no teu projeto como quiseres. Esta ferramenta foi criada só para testes, se tiveres algo que descobrieste em relação a segurança contacta os responsaveis sobre o problema.
 
 ## [Utilizador](#utilizador)
+Caso sejas um aluno e desejas executar o programa no teu *computador* então faz o download do repositório e se disponível executa o ficheiro binário executável.
 1. Clonar o repositório
-2. executar o programa testes_giae.c
+2. executar o programa giae.c
 ## [Desenvolvedor](#desenvolvedor)
 1. clonar o repositório.
 ```bash
