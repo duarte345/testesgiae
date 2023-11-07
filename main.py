@@ -6,7 +6,7 @@ t = Testes(os.getenv('UTILIZADOR'),os.getenv('PASSWORD'))
 calendarId = 'c_vrsorjnl70s8qq2vsv824rugu8@group.calendar.google.com' # calendário associado
 eventos = obter_eventos(calendarId)
 minutos = 60*24 # minutos, aqui é 1 dia antes ou 1440 min antes
-email_destinatario = 'turma_10f@csmiguel.pt'
+email_destinatario = 'turma_11f@csmiguel.pt'
 
 def main():
     for teste in t.testes_futuros():
